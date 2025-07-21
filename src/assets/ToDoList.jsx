@@ -41,7 +41,6 @@ function ToDoList(){
     return(
     <div className='to-do-list'> 
         <h1>To-do-List</h1>
-
         <div>
             <input
                 type='text'
@@ -54,6 +53,8 @@ function ToDoList(){
                     Add
                 </button>
         </div>
+        <h2> {tasks.length == 0 && "No task is added yet"}</h2>  
+        {/* short circuting */}
         <ol>
             {tasks.map((task, index) => 
                 <li key={index}>

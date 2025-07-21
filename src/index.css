@@ -65,8 +65,8 @@ li{
   background-color: hsla(0,0%,97%);
   margin-bottom: 10px;
   max-width: auto;
-  margin-left: 200px;
-  margin-right: 200px;
+  /* margin-left: 200px;
+  margin-right: 200px; */
   border: 3px solid hsla(0, 0%, 85%, 0.75);
   border-radius: 5px;
   align-items: center;
